@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factura Responsiveoriginal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="fila1">
+            <div class="part1_f1">
+                <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/84/84583.png" alt="">
+            </div>
+             <div class="name">
+                <h2>COMPANY NAME</h2>
+                <p>BRANDING TAGLINE SPACE HERE</p> 
+            </div>
+            </div>
+            <div class="part2_f1">
+                <h1>INVOICE</h1>
+            </div>
+        </div>
+        <div class="fila2">
+            <div class="part1_f2">
+            <div class="notes">
+                <h2>Additional notes</h2>
+                <p>Ut enim ad minim veniam. <br>
+                quis mastrud exrcitacion cmdsfsaoaso <br>
+                laboral nisi it aliquip <br>
+                ex fa commodo consequat  </p>
+            </div>
+            <div class="invoice-to">
+                <h2>invoice to:</h2>
+                <h5>JOHN SMITH</h5>
+                <h5>123 CREEN LAKE ST</h5>
+                <h5>CITY STATE</h5>
+                <h5>COUNTRY</h5>
+            </div>
+            </div>
+            <div class="part2_f2">
+                <div class="fecha">
+                    <h5>INVOICE DATE</h5>
+                    <p>august 2024</p>
+                    </div>
+                    <div class="due">
+                    <h5>DUE DATE</h5>
+                    <p>August 2025</p>
+                    </div>
+                    <div class="cod_factura">
+                    <h5>INVOICE #</h5>
+                    <p>1111</p>
+                    </div>
+            </div>
+        </div>
+        <div class="fila3">
+            <div class="part1_f3">
+            <div class="number">
+                <h2>#</h2>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+            </div>
+            <div class="description">
+                <h2>Product Description</h2>
+                <p>Item 1</p>
+                <p>Item 2</p>
+                <p>Item 3</p>
+                <p>Item 3</p>
+            </div>
+            <div class="price">
+                <h2>Price</h2>
+                <p>$30.50</p>
+                <p>$50.00</p>
+                <p>$70.00</p>
+                <p>20.00</p>
+            </div>
+            </div>
+            <div class="part2_f3">
+            <div class="cant-total">
+                <h2>Qty</h2>
+                <p>3</p>
+                <p>1</p>
+                <p>5</p>
+                <p>2</p>
+            </div>
+        <div class="total">
+            <h2>Total</h2>
+            <p>$91.50</p>
+            <p>$50.00</p>
+            <p>$350.00</p>
+            <p>$40.00</p>
+        </div>
+        </div>
+            </div>
+        </div>
+        <div class="fila4">
+            <div class="part1_f4">
+                <h3>Subtotal</h3>
+                <h3>Taxes</h3>
+                <h3>Shipping</h3>
+                <h3>diacount</h3>
+            </div>
+            <div class="part2_f4">
+                <p>$531.5</p>
+                <p>$63.78</p>
+                <p>$12.00</p>
+                <p>$15.00</p>
+            </div>
+        </div>
+        <div class="fila5">
+            <div class="part1_f5">
+            <div class="conditions">
+                <h2>Terms and conditions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis debitis? Quis earum nostrum temporibus tenetur est, accusamus.</p>
+            </div> 
+            <div class="total-final">
+                <h2>TOTAL</h2>
+            </div>
+            </div>
+            <div class="part2_f5">
+                <p><strong>$592.28</strong></p>
+            </div>
+        </div>
+        <div class="fila6">
+            <div class="part1_f6">
+            <h2>Payment Method</h2>
+            
+            <div class="medio_pago">
+                <input id="cash" type="radio" name="metodo-pago" value="indoor" checked>Cash/Debit
+                <input id="cheque" type="radio" name="metodo-pago" value="outdoor"> cheque
+                <input id="credit-card" type="radio" name="metodo-pago" value="outdoor"> Credit Card
+             </div> 
+             <div class="text_name">
+                <p>Cardholder's Name <input type="text" name="name" id="namee" class="text"></p>
+            </div>
+            <div class="datos">
+                <p>Card # <input type="text" class="text" id="card">Exp <input type="text" class="text" id="exp">CV <input type="text" class="text" id="cv"></p> 
+            </div>
+            </div>
+            <div class="part2_f6">
+                <hr>
+                <h2>Signature</h2>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    body{
+        height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:#96A2A0;
+         padding: 0% 17%;
+              
+    }
+
+    .container{
+       display: flex;
+       flex-direction: column;
+        background-color: white;
+        
+      
+    }
+
+    .fila1{
+        display: grid;
+        grid-template-columns: 70% 30%;
+     
+        
+    }
+
+    .part1_f1{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 40px;
+        background-color:#DFE3E4;
+        
+    }
+    .name{
+        display: flex;
+        font-size: 28px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .name p{
+        font-size: 23px;
+    }
+    .name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+
+    .logo{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    img{
+        display: flex;
+        width:50%;
+        
+    }
+    .part2_f1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 6px;
+        font-weight: 500;
+        background-color: #323C3D;
+        color: white;
+    }
+
+    .fila2{
+        display: grid;
+        grid-template-columns: 70% 30%;  
+    }
+
+    .part1_f2{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        padding: 23px 23px 23px 70px;
+    }
+    .fila2 .part2_f1 .notes{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .invoice-to{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        line-height: 1.5;
+    }
+
+    .invoice-to h2{
+     padding-bottom: 10%;
+    }
+ 
+    .part2_f2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:#3A4445;
+        color: white;
+        text-align: center;
+        line-height: 1.6;    
+    }
+
+    .fila3{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+   
+    .part1_f3{
+        display: grid; 
+        grid-template-columns: 20% 60% 20%;
+        background-color:#DFE3E4;
+        padding: 23px;
+        
+    }
+
+    .part1_f3 p{
+        line-height: 2.5;
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 50px;
+    }
+    .price{
+        text-align: end;
+        
+    }
+    .part2_f3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 23px;
+        color: white;
+         background-color: #323C3D;
+         text-align: center;
+    }
+
+    .part2_f3 p{
+        line-height: 2.5;
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+
+    .fila4{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        background-color: white;
+    }
+
+    .part1_f4{
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        line-height: 2;
+        padding: 23px;
+    }
+    .part2_f4{
+    display: flex;
+    flex-direction: column;
+    padding: 23px 23px 23px 70px;
+    line-height: 2.3;
+    color: white;
+    background-color: #3A4445;
+
+    }
+    .fila5{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        background-color: white;
+    }
+    .part1_f5{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding: 23px 23px 23px 70px;
+        font-size: 14px;
+       
+    }
+    .part2_f5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color:#323C3D;
+        padding: 23px 23px 23px 70px;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        
+    }
+
+    .part2_f5 h2{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .conditions h2{
+         margin-bottom: 10px;
+    }
+
+     .total-final{
+        text-align: end;
+    }
+
+    .fila6{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        background-color: white;
+    }
+
+    .part1_f6{
+        padding: 23px 23px 40px 70px;
+    }
+    .medio_pago{
+        display: flex;
+        gap: 1em;
+       
+    }
+    .fila6_c1 h2{
+        margin-bottom: 10px;  
+    }
+    .text{
+        border: none;
+        background-color:#C2D2D2;
+    }
+    #namee{
+        width: 40%;
+    }
+    #card{
+        width: 29%;
+    }
+
+    #exp{
+        width: 10%;
+    }
+    #cv{
+        width: 9%;
+    }
+
+    .part2_f6{
+        display: flex;
+        flex-direction: column;
+        background-color:#323C3D;
+        color: white;
+        padding: 23px;
+        text-align: center;
+        font-size: 10px;
+        justify-content: flex-end;
+    }
+
+    @media(min-width:1500px){
+        body{
+            padding: 0% 25%;
+          
+        }
+    }
+
+    @media(min-width:1800px){
+        body{
+            padding: 0% 28%;
+        }
+    }
+    @media screen and (min-width:750px) and (max-width:1109px){
+        body{
+            padding: 0% 7%;
+           
+        }
+
+    }
+    @media(max-width:750px){
+        
+        body{
+            padding: 0%;
+            
+        }
+
+        .fila1{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+    .part2_f1{
+        order: 1;
+        padding: 10px;
+    }
+    .part1_f1{
+        order: 2;
+        padding: 20px 15px;
+    }
+    .name{
+        font-size: 21px;
+    }
+    .name p{
+        font-size: 18px;
+    }
+    .fila2{
+       display: flex;
+       flex-direction: column;
+       font-size: 15px;
+    }
+    .part1_f2{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 30px 20px;
+    }
+   
+    .notes{
+        order: 2;
+       display: flex;
+       flex-direction: column;
+       align-items: end;
+       text-align: end; 
+    }
+    
+    .invoice-to{
+        order: 1;
+        text-align: start;
+        display: flex;   
+        
+    }
+    .invoice-to h2{
+     padding-bottom: 0%;
+     display: flex;
+     flex-direction: row;
+    
+    }
+    .part2_f2{
+        display: flex;
+        flex-direction: row;
+        order: -1;
+        gap: 2em;
+        font-size: 17px;
+        padding: 10px 5px;
+        background-color:#cdcfd0;
+        color: black;
+        
+    }
+    .fila3{
+        font-size: 10px;
+    }
+    .part1_f3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .part2_f3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:#DFE3E4;
+        color: black;
+        padding-left: 0;
+       
+    }
+    
+    .number{
+        display: none;
+    }
+    .fila4{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+       
+    }
+    .part2_f4{
+        background-color: white; 
+        color: black;
+        padding: 23px  30px;
+    }
+    .fila5{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .part1_f5{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 23px 0px 70px;
+        order: 1;
+    }
+    .conditions{
+        order: 1;
+    }
+    .total-final{
+        order: 2;
+    }
+    .part2_f5{
+        text-align: end;
+        background-color:#DFE3E4;
+        color: #323C3D;
+        padding: 10px 23px 10px 70px;
+    }
+    .fila6{
+        display: block;
+    }
+    .part1_f6{
+        font-size: 14px;
+    }
+    .part2_f6{
+       background-color: white;
+       color: black; 
+    }
+    #namee{
+        width: 49%;
+    }
+    #card{
+        width: 30%;
+    }
+
+    #exp{
+        width: 15%;
+    }
+    #cv{
+        width: 13%;
+    }
+    }
+    </style>
+</body>
+</html>
