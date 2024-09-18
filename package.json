@@ -1,0 +1,22 @@
+{
+  "name": "indexinvoice",
+  "version": "1.0.0",
+  "description": "invoice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauramirez18/invoice.git"
+  },
+  "author": "lauramirez18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauramirez18/invoice/issues"
+  },
+  "homepage": "https://github.com/lauramirez18/invoice#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
